@@ -60,7 +60,7 @@ var app = new Vue(
         mounted () {
             clock = setInterval(() => {
                 this.goForward();
-            }, 3000);
+            }, 10000);
         },
         beforeUpdate () {
             clearInterval(clock);
