@@ -41,10 +41,10 @@ var app = new Vue(
         methods: {
             prevImg: function() {
 
-                this.imageIndex = this.imageIndex - 1;
+                this.imageIndex--;
                 
                 if (this.imageIndex < 0) {
-                    this.imageIndex = this.images.length;
+                    this.imageIndex = this.images.length - 1;
                 }
             },
             goForward: function() {
