@@ -32,7 +32,7 @@ var app = new Vue(
                     name: "Cristo Redentor"
                 },
                 {
-                    image: "img/Bonus.jpg",
+                    image: "img/mimi.jpg",
                     name: "Meraviglia bonus"
                 }
             ],
